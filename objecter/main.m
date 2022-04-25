@@ -17,9 +17,19 @@ typedef struct {
 void login_user(person_t *user);
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
+    person_t user;
+    login_user(&user);
+    
     return 0;
+}
+
+void login_user(person_t *user) {
+    char buffer[256];
+    puts("What's ur name?");
+    scanf("%s", buffer);
+    user->name = malloc(sizeof(char) * (strlen(buffer) + 1));
+    user->name = strcpy(user->name, buffer);
+    
+    puts("How old are you?")
+    scanf("%lu", &user->age)
 }
