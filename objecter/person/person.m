@@ -7,7 +7,7 @@
 
 #import "person.h"
 
-@implementation RSPersone
+@implementation RSPerson
 
 - (instancetype)initWithname:(NSString *)name {
     self = [super init];
@@ -17,6 +17,8 @@
     return  self;
 }
 
-
+- (void)sayHello {
+    NSLog(@"\nHello, my name is %@!'n", _name);
+}
 
 @end

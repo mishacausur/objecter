@@ -8,6 +8,7 @@
 #import <stdio.h>
 #import <string.h>
 #import <Foundation/Foundation.h>
+#import "person.h"
 
 typedef struct {
     char *name;
@@ -20,6 +21,9 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         person_t user;
         login_user(&user);
+        
+        RSPerson *object = [[RSPerson alloc] initWithName: @"Mike"];
+        [object sayHello];
     }
     
     return 0;

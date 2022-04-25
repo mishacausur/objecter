@@ -6,16 +6,11 @@
 //
 #import <Foundation/Foundation.h>
 
-#ifndef person_h
-#define person_h
-
-
-#endif /* person_h */
-
-@interface RSPersone: NSObject {
+@interface RSPerson: NSObject {
     NSString *_name;
-    -(instancetype)initWithName:(NSString *)name;
-    -(void)sayHello;
 }
+    - (instancetype)initWithName:(NSString *)name;
+    - (void)sayHello;
+
 
 @end
