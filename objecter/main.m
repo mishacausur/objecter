@@ -27,9 +27,13 @@ void login_user(person_t *user) {
     char buffer[256];
     puts("What's ur name?");
     scanf("%s", buffer);
+    printf("Hello, %s!\n", buffer);
+    
     user->name = malloc(sizeof(char) * (strlen(buffer) + 1));
     user->name = strcpy(user->name, buffer);
     
-    puts("How old are you?")
-    scanf("%lu", &user->age)
+    puts("How old are you?");
+    scanf("%lu", &user->age);
+    
+    printf("Nice, %lu", user->age);
 }
