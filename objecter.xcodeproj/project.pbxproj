@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B6A83319281721D300DAFCE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A83318281721D300DAFCE1 /* main.m */; };
 		B6A833212817290500DAFCE1 /* reciever.c in Sources */ = {isa = PBXBuildFile; fileRef = B6A833202817290500DAFCE1 /* reciever.c */; };
+		B6A8332828172C9100DAFCE1 /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A8332728172C9100DAFCE1 /* person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		B6A83318281721D300DAFCE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6A8331F2817290500DAFCE1 /* reciever.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reciever.h; sourceTree = "<group>"; };
 		B6A833202817290500DAFCE1 /* reciever.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = reciever.c; sourceTree = "<group>"; };
+		B6A8332628172BC400DAFCE1 /* person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		B6A8332728172C9100DAFCE1 /* person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +47,7 @@
 		B6A8330C281721D300DAFCE1 = {
 			isa = PBXGroup;
 			children = (
-				B6A8331F2817290500DAFCE1 /* reciever.h */,
-				B6A833202817290500DAFCE1 /* reciever.c */,
+				B6A8332228172A4100DAFCE1 /* reciever */,
 				B6A83317281721D300DAFCE1 /* objecter */,
 				B6A83316281721D300DAFCE1 /* Products */,
 			);
@@ -63,8 +65,27 @@
 			isa = PBXGroup;
 			children = (
 				B6A83318281721D300DAFCE1 /* main.m */,
+				B6A8332528172BB500DAFCE1 /* person */,
 			);
 			path = objecter;
+			sourceTree = "<group>";
+		};
+		B6A8332228172A4100DAFCE1 /* reciever */ = {
+			isa = PBXGroup;
+			children = (
+				B6A8331F2817290500DAFCE1 /* reciever.h */,
+				B6A833202817290500DAFCE1 /* reciever.c */,
+			);
+			path = reciever;
+			sourceTree = "<group>";
+		};
+		B6A8332528172BB500DAFCE1 /* person */ = {
+			isa = PBXGroup;
+			children = (
+				B6A8332628172BC400DAFCE1 /* person.h */,
+				B6A8332728172C9100DAFCE1 /* person.m */,
+			);
+			path = person;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +147,7 @@
 			files = (
 				B6A833212817290500DAFCE1 /* reciever.c in Sources */,
 				B6A83319281721D300DAFCE1 /* main.m in Sources */,
+				B6A8332828172C9100DAFCE1 /* person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,8 +17,10 @@ typedef struct {
 void login_user(person_t *user);
 
 int main(int argc, const char * argv[]) {
-    person_t user;
-    login_user(&user);
+    @autoreleasepool {
+        person_t user;
+        login_user(&user);
+    }
     
     return 0;
 }
