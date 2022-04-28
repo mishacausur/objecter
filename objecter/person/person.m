@@ -9,7 +9,7 @@
 
 @implementation RSPerson
 
-- (instancetype)initWithname:(NSString *)name {
+- (instancetype)initWithName:(NSString *)name {
     self = [super init];
     if (self) {
         _name = name;
@@ -18,7 +18,7 @@
 }
 
 - (void)sayHello {
-    NSLog(@"\nHello, my name is %@!'n", _name);
+    NSLog(@"\nHello, my name is %@!\n", _name);
 }
 
 @end
