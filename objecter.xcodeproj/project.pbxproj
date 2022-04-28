@@ -10,6 +10,7 @@
 		B6A83319281721D300DAFCE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A83318281721D300DAFCE1 /* main.m */; };
 		B6A833212817290500DAFCE1 /* reciever.c in Sources */ = {isa = PBXBuildFile; fileRef = B6A833202817290500DAFCE1 /* reciever.c */; };
 		B6A8332828172C9100DAFCE1 /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A8332728172C9100DAFCE1 /* person.m */; };
+		B6A8332A281B1A8800DAFCE1 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = B6A83329281B1A8800DAFCE1 /* makefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		B6A833202817290500DAFCE1 /* reciever.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = reciever.c; sourceTree = "<group>"; };
 		B6A8332628172BC400DAFCE1 /* person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
 		B6A8332728172C9100DAFCE1 /* person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
+		B6A83329281B1A8800DAFCE1 /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			children = (
 				B6A83318281721D300DAFCE1 /* main.m */,
 				B6A8332528172BB500DAFCE1 /* person */,
+				B6A83329281B1A8800DAFCE1 /* makefile */,
 			);
 			path = objecter;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			files = (
 				B6A833212817290500DAFCE1 /* reciever.c in Sources */,
 				B6A83319281721D300DAFCE1 /* main.m in Sources */,
+				B6A8332A281B1A8800DAFCE1 /* makefile in Sources */,
 				B6A8332828172C9100DAFCE1 /* person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
